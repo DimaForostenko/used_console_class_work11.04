@@ -7,11 +7,11 @@
 .cart-container{
   font-size: 24px;
   text-align: center;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Google Sans',Roboto,arial,sans-serif;
 }
 .cart-wrapper{
   --img-size:100px;
-  --main-bg-color:darkblue;
+  --main-bg-color:#17a2b7;
   
   display: inline-block;
   box-sizing:border-box;
@@ -19,15 +19,17 @@
   min-width: calc(var(--img-size)*2);
   width: 100%;
   max-width: calc(var(--img-size)*3); 
-  border: 1px solid darkblue;
+  border: 1px solid #17a2b7;
   text-align: center;
   font-size: 0.6em;
   
-  
+}
+.icon-map{
+
 }
 .bg-header{
-  height: calc(var(--img-size) * 1.5);
-  --main-bg-color:darkblue;
+  height: calc(var(--img-size) * 1.25);
+  --main-bg-color:#17a2b7;
   background-color:var(--main-bg-color);
 }
 .cart-content{
@@ -45,12 +47,25 @@
   background-color:#ffff;
 
 }
-.btn-contaner{
+.full-name-profile{
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  
+}
+.icon-map{
+  width: 14px;
+  height: 14px;
+  
+}
+.address-profile {
+  font-size: 16px;
+margin: 10px 0 10px 0;
+}
+.btn-contaner {
   border-top: 1px solid #cccc;
   border-bottom: 1px solid #cccc;
   padding: 15px 0;
-  
-  
 
 }
 .follow{
@@ -92,6 +107,7 @@ width: 50px;
   display: inline-block;
 }
 .link-social{
+  margin: 3px;
   display: block;
   width: 24px;
   height: 24px;
@@ -99,14 +115,15 @@ width: 50px;
   
 }
 
-.icon-facebook{
-  
-  background-image: url(./icon/facebook.png);
-}
 .icon-google{
   
   background-image:url(./icon/google.png);
 }
+.icon-facebook{
+  
+  background-image: url(./icon/facebook.png);
+}
+
 .icon-twitter{
   
   background-image:url(./icon/twitter.png);
