@@ -11,7 +11,7 @@
   display: inline-block;
   font-size: 24px;
   text-align: center;
-  font-family: 'Google Sans',Roboto,arial,sans-serif;
+  font-family: Roboto,arial,sans-serif;
 }
 .cart-wrapper{
   --img-size:100px;
@@ -54,14 +54,19 @@
   margin: 10px;
   font-size: 18px;
   text-align: center;
-  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
   
-}
+
 .address-profile {
   font-size: 16px;
 margin: 10px 0 10px 0;
+overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .btn-contaner {
   border-top: 1px solid #cccc;
@@ -70,12 +75,14 @@ margin: 10px 0 10px 0;
 
 }
 .follow{
-width: 50px;
+  font-style: Helvetica, Verdana, sans-serif;
+width: 70px;
 }
 .messeget{
   width: 110px;
 }
 .btn{
+  
   cursor: pointer;
   border: none;
   color: #ffff;
@@ -94,9 +101,7 @@ width: 50px;
   box-sizing:border-box;
   width: 250px;
   margin: 20px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  
 }
 .card-footer{
   background-color:var(--main-bg-color);
