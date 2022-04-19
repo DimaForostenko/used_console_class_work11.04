@@ -50,23 +50,23 @@
   background-color:#ffff;
 
 }
-.full-name-profile{
-  margin: 10px;
-  font-size: 18px;
+.full-name-profile,
+.address-profile{
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-
-  
+.full-name-profile{
+  margin: 10px;
+  font-size: 18px;
+ 
+}
 
 .address-profile {
   font-size: 16px;
 margin: 10px 0 10px 0;
-overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+
 }
 .btn-contaner {
   border-top: 1px solid #cccc;
@@ -74,29 +74,27 @@ overflow: hidden;
   padding: 15px 0;
 
 }
-.follow{
-  font-style: Helvetica, Verdana, sans-serif;
-width: 70px;
-}
-.messeget{
-  width: 110px;
-}
+
 .btn{
-  
   cursor: pointer;
   border: none;
   color: #ffff;
   background-color:blue;
   padding: 5px 5px 5px 5px;
   border-radius: 3px;
+  text-transform: capitalize;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   
 }
 .follow{
-  background-color:green
-}
+  width: 70px;
+  background-color:green;
+  }
+  .messeget{
+    width: 110px;
+  }
 .description-profile{
   box-sizing:border-box;
   width: 250px;
